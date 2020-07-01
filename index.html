@@ -1,0 +1,1033 @@
+<!--
+Author: Donald Le
+Author URL: https://github.com/cuongld2
+-->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Donald Le| Home :: Portfolio</title>
+  <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <!-- Custom Theme files -->
+  <link href="css/style.css" rel='stylesheet' type='text/css' />
+  <!-- Custom Theme files -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="Donald Le portfolio" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="theme-color" content="#ffffff">
+  <!-- End -->
+  <!-- webfonts -->
+  <link href='//fonts.googleapis.com/css?family=Asap:400,700,400italic' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <!-- webfonts -->
+  <!---- start-smoth-scrolling---->
+  <script type="text/javascript" src="js/move-top.js"></script>
+  <script type="text/javascript" src="js/easing.js"></script>
+  <script type="text/javascript">
+    jQuery(document).ready(function ($) {
+      $(".scroll").click(function (event) {
+        event.preventDefault();
+        $('html,body').animate({
+          scrollTop: $(this.hash).offset().top
+        }, 1000);
+      });
+    });
+  </script>
+  <!---- start-smoth-scrolling---->
+</head>
+
+<body>
+  <!-- container -->
+  <!-- header -->
+  <div id="home" class="header">
+    <div class="container">
+      <!-- top-hedader -->
+      <div class="top-header">
+        <!-- /logo -->
+        <!--top-nav---->
+        <div class="top-nav">
+          <div class="navigation">
+            <div class="logo">
+              <h1><a href="index.html"><span>STRONG</span> WORK ETHIC</a></h1>
+            </div>
+            <div class="navigation-right">
+              <span class="menu"><img src="images/menu.png" alt=" " /></span>
+              <nav class="link-effect-3" id="link-effect-3">
+                <ul class="nav1 nav nav-wil">
+                  <li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+                  <li><a class="scroll" data-hover="About" href="#about">About</a></li>
+                  <li><a class="scroll" data-hover="Skills" href="#services">Skills</a></li>
+                  <li><a class="scroll" data-hover="Experience" href="#work">Experience</a></li>
+                  <li><a class="scroll" data-hover="Projects" href="#blogs">Projects</a></li>
+                  <li><a class="scroll" data-hover="Contact" href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <!-- script-for-menu -->
+              <script>
+                $("span.menu").click(function () {
+                  $("ul.nav1").slideToggle(300, function () {
+                    // Animation complete.
+                  });
+                });
+              </script>
+              <!-- /script-for-menu -->
+            </div>
+            <div class="clearfix"></div>
+          </div>
+          <!-- /top-hedader -->
+        </div>
+        <div class="banner-info">
+          <div class="col-md-7 header-right">
+            <h1>Donald Le</h1>
+            <h6>Automation Engineer from Hanoi - Vietnam</h6>
+            <div class="hero__links">
+              <a href="docs/donald_le.pdf" target="_blank" class="hero__resume btn" title="Click to view my Resume">View Resume</a>
+              <ul class="hero__social">
+                <li>
+                  <a href="https://github.com/cuongld2" rel="noopener" target="_blank" title="Github">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/cuong-le-209003b0/" rel="noopener" title='LinkedIn' target="_blank">
+                    <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://medium.com/@ledinhcuong99" rel="noopener" target="_blank" title="Medium">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="1792" height="1792"><path fill="#37474f" d="M6 6H42V42H6z"/><path fill="#fff" d="M34.146,16.229L36,14.375V14h-6.636l-4.92,11.791L19.26,14H12v0.375l1.884,2.261 c0.075,0.09,0.116,0.203,0.116,0.32v12.286c0,0.183-0.063,0.36-0.177,0.502l-2.323,2.88V33h7v-0.375l-2.325-2.906 C16.062,29.577,16,29.401,16,29.219V18.725L22.365,33h1.26L29,20.083v10.085c0,0.133-0.053,0.26-0.146,0.353l-2.104,2.104V33H36 v-0.375l-1.854-1.854C34.053,30.678,34,30.551,34,30.418V16.582C34,16.449,34.053,16.322,34.146,16.229z"/></svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <ul class="address">
+
+              <li>
+                <ul class="address-text">
+                  <li><b>NAME</b></li>
+                  <li>Donald Le</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>D.O.B</b></li>
+                  <li>11-JAN-1990</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>MOBILE </b></li>
+                  <li>+84 838069260</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>ADDRESS </b></li>
+                  <li>Hanoi, Vietnam.</li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>E-MAIL </b></li>
+                  <li><a href="mailto:ledinhcuong99@gmail.com"> ledinhcuong99@gmail.com</a></li>
+                </ul>
+              </li>
+              <li>
+                <ul class="address-text">
+                  <li><b>WEBSITE </b></li>
+                  <li><a href="https://github.com/cuongld2">Donald Le</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+          <div class="col-md-5 header-left">
+            <img src="images/profile.jpg" alt="">
+          </div>
+          <div class="clearfix"> </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+  <div id="about" class="about">
+    <div class="col-md-6 about-left">
+      <div id="owl-demo1" class="owl-carousel owl-carousel2">
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>As an <span>Automation Engineer</span></h2>
+            <p><strong>Since 2019,</strong> I have been working with <a href="https://coccoc.com/en" target="_blank">CocCoc Company</a>              as a senior automation engineer, where I initiated to implement automation framework
+              for testing CocCoc desktop and mobile application.
+              <p>Here, I am responsible for <strong>design automation framework</strong> and mentor test engineer
+                to conduct API testing, End-to-End testing in automation.</p>
+              <ul>
+                <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+                <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+              </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>As <span>a tech writer </span></h2>
+            <p>I usually write tech blog on <a href="https://medium.com/@ledinhcuong99" target="_blank">Medium</a>.</p>
+                  <ul>
+                    <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+                    <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+                  </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="about-left-grid">
+            <h2>Free time or <span>Hobbies</span></h2>
+            <p>When I’m not in front of a computer I enjoy traveling, reading.</p>
+            <ul>
+              <li><a class="a-btn-a scroll" href="#port">My Work</a></li>
+              <li><a class="a-btn-h scroll" href="#contact">Hire Me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 about-right">
+
+    </div>
+    <div class="clearfix"> </div>
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo1").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: false,
+          pagination: true,
+        });
+      });
+    </script>
+    <!-- Feedback -->
+    <script>
+      $(document).ready(function () {
+        $("#owl-demo3").owlCarousel({
+          items: 1,
+          lazyLoad: false,
+          autoPlay: true,
+          navigation: false,
+          navigationText: true,
+          pagination: true,
+        });
+      });
+    </script>
+  </div>
+  <!-- /about -->
+  <!-- services -->
+  <div id="services" class="services">
+    <div class="container">
+      <div class="service-head one text-center ">
+        <h4>WHAT I DO</h4>
+        <h3>MY <span>SKILLS</span></h3>
+        <span class="border two"></span>
+      </div>
+      <!-- services-grids -->
+      <div class="wthree_about_right_grids w3l-agile">
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-th-large"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>End-to-End testing</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Selenium <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Cypress <i class="val">30%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Appium <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">UiAutomator <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 left-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Robot <i class="val">50%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 right-div">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Serenity <i class="val">85%</i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-leaf"></i>
+            </div>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>API Testing</h4>
+          </div>
+          <div class="clearfix"> </div>
+          <div class="col-md-12 skill-group-div">
+            <!-- Skill Bars -->
+            <div class="progress skill-bar ">
+              <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <span class="skill">Rest-assured <i class="val">80%</i></span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">requests <i class="val">85%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">Gatling <i class="val">80%</i></span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="progress skill-bar">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  <span class="skill">ZAP <i class="val">70%</i></span>
+                </div>
+              </div>
+            </div>
+          <div class="clearfix"> </div>
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-gift"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Databases</h4>
+            <ul class="news">
+              <li>MySql</li>
+              <li>MariaDB</li>
+              <li>MongoDB</li>
+              <li>Redis</li>
+            </ul>
+          </div>
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Programming Languages</h4>
+            <ul class="news">
+              <li>Python</li>
+              <li>Java</li>
+              <li>Scala</li>
+              <li>Go</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-wrench"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Project Tools</h4>
+            <ul class="news">
+              <li>Agile</li>
+              <li>Scrum</li>
+              <li>Git & Gitlab</li>
+              <li>Testrail</li>
+              <li>Jira</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-certificate"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Tools & Ids</h4>
+            <ul class="news">
+              <li>IntelliJ</li>
+              <li>Pycharm</li>
+              <li>Webstorm</li>
+              <li>Datagrip</li>
+              <li>Goland</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 wthree_about_right_grid">
+          <!--<div class="col-xs-2 wthree_about_right_grid_left">
+            <div class="hvr-rectangle-in">
+              <i class="glyphicon glyphicon-tint"></i>
+            </div>
+          </div>-->
+          <div class="col-xs-10 wthree_about_right_grid_right">
+            <h4>Others</h4>
+            <ul class="news">
+              <li>Android</li>
+              <li>Mac</li>
+              <li>iOS</li>
+              <li>Windows</li>
+              <li>Linux</li>
+            </ul>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services-grids -->
+  </div>
+  </div>
+  <!-- services -->
+  <!--work-experience-->
+  <div id="work" class="work">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>WHAT I DID</h4>
+        <h3>MY <span>EXPERIENCE</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="time-main w3l-agile">
+        <div class="col-md-6 year-info">
+          <ul class="year">
+            <li>July 2020 <i class="glyphicon glyphicon-arrow-right"></i> <span id="tillDate"></span></li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+        <ul class="col-md-6 timeline">
+          <li>
+            <div class="timeline-badge info"><i class="glyphicon glyphicon-briefcase"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="https://coccoc.com/en" target="_blank">CocCoc Company, <i>Hanoi, Vietnam</i></a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>We are a technology company which has features to compete to Google products like browser, search engine, maps, ads platform.</p>
+                <p><strong>Great! place to learn and grow.</strong></p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="timeline-badge primary"><i class="glyphicon glyphicon-briefcase"></i></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="timeline-title"><a href="https://www.tcbs.com.vn/home"> Techcom Securities</a></h4>
+              </div>
+              <div class="timeline-body">
+                <p>Through Techcom Securities I got a chance to develop my testing and programming skills under the great leading of my Test Architect</strong>.</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+  </div>
+  <!--//work-experience-->
+  <!-- top-grids -->
+  <div class="blog" id="blogs">
+    <div class="container">
+      <div class="service-head text-center">
+        <h4>PROJECTS</h4>
+        <h3>MY <span>Projects</span></h3>
+        <span class="border one"></span>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://coccoc.com/en" target="_blank">CocCoc browser</a></h3>
+          <ul class="news">
+            <li>Python</li>
+            <li>Java</li>
+            <li>Selenium</li>
+            <li>pytest</li>
+            <li>Gatling</li>
+            <li>SQL</li>
+            <li>NoSQL</li>
+          </ul>
+          <p><strong> Implement automation test </strong> for CocCoc browser in multiple platform : Windows, Android </p>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://www.in.ckgs.us/" target="_blank">Techcom Securities core service</a></h3>
+          <ul class="news">
+            <li>Java</li>
+            <li>Serenity</li>
+            <li>Gatling</li>
+            <li>Oracle</li>
+          </ul>
+          <p><strong> Implement automation API and UI testing </strong> for Techcom Securities core services </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="news-grid w3l-agile">
+        <div class="col-md-6 news-text">
+          <h3> <a href="https://www.bookstackapp.com/" target="_blank">pytest-testrail</a></h3>
+          <ul class="news">
+            <li>Python</li>
+            <li>requests</li>
+          </ul>
+          <p>Contributed to open source project to integrate testrail api with pytest for easily plugged to existing pytest runner.</p>
+        </div>
+        <div class="col-md-6 news-text">
+          <h3> <a href="http://demo.pinestem.com/login.html" target="_blank">Ascend e-wallet platform</a></h3>
+          <ul class="news">
+            <li>Jmeter</li>
+            <li>Robotframework</li>
+          </ul>
+          <p>Implement API testing for Ascend e-wallet services</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+  </div>
+  <!-- top-grids -->
+  <!-- /blog-pop-->
+  <div class="modal ab fade" id="baseDriveMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">BaseDrive - Pay As You Drive</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : BaseDrive (Pay as you drive)</li>
+                  <li><strong>Team Size</strong> : 7</li>
+                  <li><strong>Client</strong> : Baseline Telematics (Canada)</li>
+                  <li><strong>Duration</strong> : May 2015 - Oct 2016</li>
+                  <li><strong>Technologies</strong>: CakePHP, CRM, Java, Jquery, Ajax, Lua, Bootstrap, MySQL</li>
+                  <li><strong>Servers </strong>: Apache on Linux</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li> UI and front end functionality using VueJS.</li>
+                <li> Ajax calls using Axios to get data from Rest API’s.</li>
+                <li> Error handling and displaying notifications. </li>
+                <li> Dev and staging environments.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="tlmMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Travel Like Me </span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : Travel Like Me ( Holidays Engine ) </li>
+                  <li><strong>Team Size</strong> : 8</li>
+                  <li><strong>Client</strong> : Cox & Kings Global Services (IND | USA)</li>
+                  <li><strong>Duration</strong> : Nov 2017 - Till Date</li>
+                  <li><strong>Technologies</strong>: PHP, Symfony, JavaScript, Jquery, Bootstrap and MySQL</li>
+                  <li><strong>Servers </strong>: Apache on Linux</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li> Design UI and front end functionality using Bootstrap, Angular and JQuery..</li>
+                <li> Write Business logic using PHP - Symphony.</li>
+                <li> Setup Dev and staging environments using Gitlab CI and CD or Ansible</li>
+                <li> Frequent code reviews.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="ckgsMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">CKGS - VISA | Renunciation | OCI  Applications </span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : CKGS - VISA | Renunciation | OCI Applications </li>
+                  <li><strong>Team Size</strong> : 10</li>
+                  <li><strong>Client</strong> : Cox & Kings Global Services (IND | USA)</li>
+                  <li><strong>Duration</strong> : Nov 2017 - Till Date</li>
+                  <li><strong>Technologies</strong>: PHP, Symfony, JavaScript, Jquery, Bootstrap and MySQL</li>
+                  <li><strong>Servers </strong>: Apache on Linux</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit tex-align-left">Description </div>
+                <p class="text-align-left">Cox and Kings Global Services (CKGS) deals with Visa / OCI / Renunciation processing from Italy to Dubai.
+                  The basic expectation for Visa / OCI / Renunciation Processing Application is given below. The expected
+                  application deals with helps users with visa documentation and processing. With the help of users basic
+                  information and needs it should calculate the visa type which will be suitable for the user and helps users
+                  with checklist, procedures and form filling areas.
+                </p>
+                <p class="text-align-left">It should collect the amount needed for Indian embassy and for itself from users. It should submit the application
+                  to Indian embassy and provide the status of the visa stage by stage to user. </p>
+                <p>Once stamped it should dispatch the passport. The application should be sophisticatedly designed in such
+                  way that it should interact with Payment gateway for collecting money, Should interact with Indian embassy
+                  site for already half filed files, Should deal with group of applicants, should deal with OCI (Outside
+                  Citizens of India) and Renunciation etc. The above mentioned functionalism will provide only a very high
+                  level of project information. </p>
+                  <p class="text-align-left">The real project will have in depth and adequate functionalism compared to the above synopsis.</p>
+
+              </div>
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li> Design UI and front end functionality using Bootstrap, Angular and JQuery..</li>
+                <li> Write Business logic using PHP - Symphony.</li>
+                <li> Setup Dev and staging environments using Gitlab CI and CD or Ansible</li>
+                <li> Frequent code reviews.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="pineStemMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">PineStem</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : PineStem</li>
+                  <li><strong>Team Size</strong> : 12</li>
+                  <li><strong>Client</strong> : Osmosys</li>
+                  <li><strong>Duration</strong> : NOV 2016 - OCT 2017</li>
+                  <li><strong>Technologies</strong>: PHP, .Net, Java, Angular JS, React and MySQL</li>
+                  <li><strong>Servers </strong>: Apache on Linux</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li> UI and front end functionality using VueJS.</li>
+                <li> Ajax calls using Axios to get data from Rest API’s.</li>
+                <li> Project management - Sprint planning, Prepare spec document, Assign tasks to team, schedule meetings, setup
+                  development instances.</li>
+                <li>Implemented data tables and wrote a component for client-side validations.</li>
+                <li>Written Business Service Interfaces and their implementations.</li>
+                <li>Setup CI and CD for integration, testing and deployment.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="bookStackMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Bookstack</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <p class="left-align">For this project I've contributes for this module 'Book Coverart and Grid Display'. Desired Feature - Allow
+                  users to upload a cover for a book and to change the Views Page to allow for grid display of covers, thereby
+                  allowing more books on the one page before pagination. Perhaps something similar to how amazon or sitepoint
+                  display books. You can see the pull request - <a href='https://github.com/BookStackApp/BookStack/pull/494'>here</a>'
+                </p>
+              </div>
+            </div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li>Contributed to any issue.</li>
+                <li>Help people to setup Bookstack if they face any issues.</li>
+                <li>Raise the issues.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="counterPickMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Counterpick</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : Counterpick</li>
+                  <li><strong>Team Size</strong> : 5</li>
+                  <li><strong>Client</strong> : Urban Gutsav</li>
+                  <li><strong>Duration</strong> : Aug 2017 - Nov 2017</li>
+                  <li><strong>Technologies</strong>: VueJS, NodeJS and MySQL</li>
+                  <li><strong>Servers </strong>: Apache on Linux</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li>Design UI and front end functionality using VueJS.</li>
+                <li>Written Ajax calls using Axios to get data from Rest API’s.</li>
+                <li>Error handling and displaying notifications.</li>
+                <li>Setup Dev and staging environments.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="wishlistMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Wishlist.Do</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : Wishlist.Do</li>
+                  <li><strong>Team Size</strong> : 4</li>
+                  <li><strong>Client</strong> : Osmosys</li>
+                  <li><strong>Duration</strong> : May 2014 - May 2015</li>
+                  <li><strong>Technologies</strong>: CakePHP, Wordpress, Android and MySql.</li>
+                  <li><strong>Servers </strong>: IIS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li> Designed and developed Website, portal and Admin portal.</li>
+                <li> Written Ajax calls using with Jquery-Ajax.</li>
+                <li> Implemented Restful Services (API) Controllers Classes using CakePHP MVC framework.</li>
+                <li> Business Service Interfaces and their implementations.</li>
+                <li> UI and front end functionality using VueJS.</li>
+                <li> Ajax calls using Axios to get data from Rest API’s.</li>
+                <li> Error handling and displaying notifications. </li>
+                <li> Dev and staging environments.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="rivengMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">Riveng</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : Riveng</li>
+                  <li><strong>Team Size</strong> : 6</li>
+                  <li><strong>Client</strong> : Martin (Hongkong)</li>
+                  <li><strong>Duration</strong> : Jan 2014 - Apr 2014</li>
+                  <li><strong>Technologies</strong>: Core PHP, Javascript, Jquery and MySQL.</li>
+                  <li><strong>Servers </strong>: IIS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li> Action Classes.</li>
+                <li>Implemented Form Validations using Validation Framework.</li>
+                <li> Designed UI and written Ajax calls using with Jquery-Ajax.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal ab fade" id="slogerrMdl" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog about" role="document">
+      <div class="modal-content about">
+        <div class="modal-header">
+          <span class="project-title">SLogErr</span>
+          <button type="button" class="close ab" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body about">
+          <div class="about">
+
+            <div class="about-inner">
+              <div class="col-md-6">
+                <img src="images/b3.jpg" class="project-img" alt="about" />
+              </div>
+              <div class="col-md-6">
+                <ul>
+                  <li><strong>Project</strong> : SLogErr</li>
+                  <li><strong>Team Size</strong> : 2</li>
+                  <li><strong>Client</strong> : Osmosys</li>
+                  <li><strong>Duration</strong> : Sep 2013 - Dec 2013</li>
+                  <li><strong>Technologies</strong>: PHP, JQuery, Bootstrap and MySQL.</li>
+                  <li><strong>Servers </strong>: IIS</li>
+                </ul>
+              </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="about-inner">
+              <div class="project-title my-responsibilit">My Responsibilities</div>
+              <ul>
+                <li>Developed Portal.</li>
+                <li>Written Rest services using CakePHP.</li>
+                <li>Designed UI and written Ajax calls using with JQuery-Ajax.</li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- //blog-pop-->
+
+  <!-- /header -->
+  <div class="footer" id="contact">
+    <div class="container">
+      <div class="service-head one text-center">
+        <h4>CONTACT ME</h4>
+        <h3>GET <span>IN TOUCH WITH ME</span></h3>
+        <span class="border two"></span>
+      </div>
+      <div class="mail_us">
+        <div class="col-md-6 mail_left">
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+              <h4>Contact By Email</h4>
+              <ul>
+                <li>Primary: <a href="mailto:ledinhcuong99@gmail.com">ledinhcuong99@gmail.com</a></li>
+                <li>
+                  <Secondary></Secondary>: <a href="mailto:ledinhcuong99@gmail.com">ledinhcuong99@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+              <h4>Contact By Mobile</h4>
+              <ul>
+                <li>Mobile: +84 838069260</li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact-grid1-left">
+            <div class="contact-grid1-left1">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              <h4>Looking For Address</h4>
+              <ul>
+                <li>Van Quan, Chien Thang, Ha Dong, Hanoi, Vietnam</li>
+              </ul>
+            </div>
+          </div>
+          <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-6 mail_right">
+          <form action="#" method="post">
+            <input type="text" name="Name" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}"
+              required="">
+            <input type="email" name="Email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}"
+              required="">
+            <input type="text" name="Mobile number" value="Mobile number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile number';}"
+              required="">
+            <textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+            <input type="submit" value="Send">
+
+          </form>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <div class="copy_right text-center">
+        <p class="float-left">&copy; 2020 Profile of Donald Le</p>
+        <p class="float-right">Design on top of <a href="http://w3layouts.com/" target="_blank">W3layouts.</a></p>
+        <ul class="hero__social">
+          <li>
+            <a href="https://github.com/cuongld2" rel="noopener" target="_blank" title="GitHub">
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/cuong-le-209003b0/" rel="noopener" target="_blank" title='LinkedIn'>
+              <svg version="1.1" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M477 625v991h-330v-991h330zm21-306q1 73-50.5 122t-135.5 49h-2q-82 0-132-49t-50-122q0-74 51.5-122.5t134.5-48.5 133 48.5 51 122.5zm1166 729v568h-329v-530q0-105-40.5-164.5t-126.5-59.5q-63 0-105.5 34.5t-63.5 85.5q-11 30-11 81v553h-329q2-399 2-647t-1-296l-1-48h329v144h-2q20-32 41-56t56.5-52 87-43.5 114.5-15.5q171 0 275 113.5t104 332.5z"></path>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="https://medium.com/@ledinhcuong99" rel="noopener" target="_blank" title="Medium">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="1792" height="1792"><path fill="#37474f" d="M6 6H42V42H6z"/><path fill="#fff" d="M34.146,16.229L36,14.375V14h-6.636l-4.92,11.791L19.26,14H12v0.375l1.884,2.261 c0.075,0.09,0.116,0.203,0.116,0.32v12.286c0,0.183-0.063,0.36-0.177,0.502l-2.323,2.88V33h7v-0.375l-2.325-2.906 C16.062,29.577,16,29.401,16,29.219V18.725L22.365,33h1.26L29,20.083v10.085c0,0.133-0.053,0.26-0.146,0.353l-2.104,2.104V33H36 v-0.375l-1.854-1.854C34.053,30.678,34,30.551,34,30.418V16.582C34,16.449,34.053,16.322,34.146,16.229z"/></svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- //footer -->
+  <!-- /container -->
+  <a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  <!--start-smooth-scrolling-->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      /*
+										var defaults = {
+								  			containerID: 'toTop', // fading element id
+											containerHoverID: 'toTopHover', // fading element hover id
+											scrollSpeed: 1200,
+											easingType: 'linear'
+								 		};
+										*/
+      $('.progress .progress-bar').css("width",
+        function () {
+          return $(this).attr("aria-valuenow") + "%";
+        }
+      );
+      $().UItoTop({
+        easingType: 'easeOutQuart'
+      });
+
+    });
+  </script>
+  <!--end-smooth-scrolling-->
+  <!-- //for bootstrap working -->
+  <script src="js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
