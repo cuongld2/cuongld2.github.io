@@ -6,6 +6,7 @@
 module.exports = {
   images: {
     domains: ['rdl.ink'],
+    unoptimized: true,
   },
   output: 'export',
   webpack: (config, { isServer }) => {
