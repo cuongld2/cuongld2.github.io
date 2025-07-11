@@ -6,9 +6,7 @@ import { TransparentLink } from '@components';
 import { getPosts, Post } from '@posts';
 import {
   SiCypress,
-  SiGo,
   SiK6,
-  SiKubernetes,
   SiPlaywright,
   SiTypescript
 } from 'react-icons/si';
