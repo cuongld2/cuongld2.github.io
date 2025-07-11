@@ -1,24 +1,17 @@
-import React from 'react';
-import { Title, Text, Container, Grid, Link, Card } from '@components';
+import { Card, Container, Grid, Link, Text, Title } from '@components';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
-import {
-  SiGo,
-  SiKubernetes,
-  SiElixir,
-  SiPostgresql,
-  SiTypescript,
-  SiAmazonaws,
-  SiGooglecloud,
-  SiTerraform,
-  SiReact,
-  SiNextdotjs,
-  SiPython,
-  SiGraphql,
-} from 'react-icons/si';
-import { getPosts, Post } from '@posts';
 import { TransparentLink } from '@components';
+import { getPosts, Post } from '@posts';
+import {
+  SiCypress,
+  SiGo,
+  SiK6,
+  SiKubernetes,
+  SiPlaywright,
+  SiTypescript
+} from 'react-icons/si';
 
 interface AboutProps {
   experiences: Post[];
@@ -26,53 +19,22 @@ interface AboutProps {
 
 const stacks = [
   {
-    Icon: SiGo,
-    url: 'https://golang.org/',
-  },
-  {
-    Icon: SiKubernetes,
-    url: 'https://kubernetes.io/',
-  },
-  {
     Icon: SiTypescript,
     url: 'https://www.typescriptlang.org/',
   },
   {
-    Icon: SiReact,
-    url: 'https://reactjs.org/',
+    Icon: SiCypress,
+    url: 'https://cypress.io/',
   },
   {
-    Icon: SiGraphql,
-    url: 'https://graphql.org/',
+    Icon: SiPlaywright,
+    url: 'https://playwright.dev/',
   },
   {
-    Icon: SiAmazonaws,
-    url: 'https://aws.amazon.com/',
+    Icon: SiK6,
+    url: 'https://k6.io/',
   },
-  {
-    Icon: SiNextdotjs,
-    url: 'https://nextjs.org/',
-  },
-  {
-    Icon: SiElixir,
-    url: 'https://elixir-lang.org/',
-  },
-  {
-    Icon: SiGooglecloud,
-    url: 'https://cloud.google.com/',
-  },
-  {
-    Icon: SiTerraform,
-    url: 'https://www.terraform.io/',
-  },
-  {
-    Icon: SiPostgresql,
-    url: 'https://www.postgresql.org/',
-  },
-  {
-    Icon: SiPython,
-    url: 'https://www.python.org/',
-  },
+  
 ];
 
 const About = ({ experiences }: AboutProps): JSX.Element => (
